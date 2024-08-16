@@ -7,7 +7,7 @@ def menuprincipal2(op : int):
     *******************************************
     """
     menuprincipal = '1.eliminar datos \n2.editar \n3. Salir'
-    if (op != 4):
+    if (op != 3):
         print(title)
         print(menuprincipal)
         try:
@@ -22,6 +22,7 @@ def menuprincipal2(op : int):
                 case 2:
                     me.editar()
                 case 3:
-                    (0)
+                    import main
+                    main.menuprincipal
                 case _:
-                    print()
+                    menuprincipal2

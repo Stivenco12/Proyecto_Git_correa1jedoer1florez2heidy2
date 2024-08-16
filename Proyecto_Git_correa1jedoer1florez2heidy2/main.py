@@ -25,7 +25,7 @@ def menuprincipal(op : int):
                 case 2:
                     da.menuprincipal2(1)
                 case 3:
-                    vi.menuprincipal1()
+                    vi.menuprincipal1(1)
                 case _:
                     print()
 

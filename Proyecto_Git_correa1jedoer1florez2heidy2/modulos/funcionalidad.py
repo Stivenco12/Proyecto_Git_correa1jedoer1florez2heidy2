@@ -16,6 +16,9 @@ def añadido():
     with open('guardar_informacion.json', 'w') as jf: 
         json.dump(sucursal, jf, ensure_ascii=False, indent=2)
 
+    import main
+    main.menuprincipal(1)
+
 def eliminar():
         nombre = ("la informacion a sido borrada")
         direcion = ( "la informacion a sido borrada")
@@ -32,3 +35,6 @@ def eliminar():
     }
         with open('guardar_informacion.json', 'w') as jf: 
             json.dump(sucursal, jf, ensure_ascii=False, indent=2)
+
+        import main
+        main.menuprincipal(1)

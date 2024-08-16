@@ -5,7 +5,7 @@ def menuprincipal1(op : int):
     *       VISUALISACIONES SUCURSALES       *
     *******************************************
     """
-    menuprincipal = '1.ver sucursales \n2.filtrado por nombre\n3.filtrado por estado \n4. Salir'
+    menuprincipal = '1.ver sucursales \n2.filtrado por nombre\n3.salir'
     if (op != 4):
         print(title)
         print(menuprincipal)
@@ -21,6 +21,7 @@ def menuprincipal1(op : int):
                 case 2:
                     (0)
                 case 3:
-                    (0)
+                    import main
+                    main.menuprincipal(1)
                 case _:
                     print()
