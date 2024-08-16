@@ -1,5 +1,5 @@
 import os
-import modulos.funcionalidad
+import Proyecto_Git_correa1jedoer1florez2heidy2.modulos.funcionalidad
 def menuprincipal(op : int):
     title = """
     *******************************************
