@@ -1,5 +1,4 @@
-import os
-import Proyecto_Git_correa1jedoer1florez2heidy2.modulos.funcionalidad
+
 def menuprincipal(op : int):
     title = """
     *******************************************
@@ -25,4 +24,3 @@ def menuprincipal(op : int):
                     (0)
                 case _:
                     print()
-menuprincipal(1)

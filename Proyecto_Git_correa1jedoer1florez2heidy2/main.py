@@ -1,5 +1,7 @@
 import os
-import modulos.funcionalidad
+import modulos.funcionalidad as mf
+import visualisar as vi
+import datos as da
 def menuprincipal(op : int):
     title = """
     *******************************************
@@ -19,11 +21,11 @@ def menuprincipal(op : int):
         else:
             match (op):
                 case 1:
-                   function.añadido(0)
+                    mf.añadido
                 case 2:
-                    (0)
+                    da.menuprincipal
                 case 3:
-                    uic.menucitas(0)
+                    vi.menuprincipal
                 case _:
                     print()
 
