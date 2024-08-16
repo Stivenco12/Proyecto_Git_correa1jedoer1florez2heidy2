@@ -21,11 +21,11 @@ def menuprincipal(op : int):
         else:
             match (op):
                 case 1:
-                    mf.añadido
+                    mf.añadido()
                 case 2:
-                    da.menuprincipal
+                    da.menuprincipal2(1)
                 case 3:
-                    vi.menuprincipal
+                    vi.menuprincipal1()
                 case _:
                     print()
 

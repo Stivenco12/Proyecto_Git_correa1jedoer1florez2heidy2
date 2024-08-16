@@ -1,5 +1,5 @@
 import json
-def añadido():
+def editar():
     sucursal_nombre = input("ingrese el nombre de la sucursal")
     direcion = input ("ingrese la direccion de la sucursal")
     telefono = input ("ingrese el telefono de la sucursal")

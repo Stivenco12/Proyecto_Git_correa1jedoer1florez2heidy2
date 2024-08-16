@@ -1,5 +1,5 @@
 
-def menuprincipal(op : int):
+def menuprincipal1(op : int):
     title = """
     *******************************************
     *       VISUALISACIONES SUCURSALES       *

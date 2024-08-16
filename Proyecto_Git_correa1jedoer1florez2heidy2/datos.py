@@ -1,5 +1,6 @@
-
-def menuprincipal(op : int):
+import modulos.editar as me
+import modulos.funcionalidad as mf
+def menuprincipal2(op : int):
     title = """
     *******************************************
     *          ELIMINACION DE DATOS         *
@@ -17,9 +18,9 @@ def menuprincipal(op : int):
         else:
             match (op):
                 case 1:
-                   function.añadido(0)
+                   mf.eliminar()
                 case 2:
-                    (0)
+                    me.editar()
                 case 3:
                     (0)
                 case _:

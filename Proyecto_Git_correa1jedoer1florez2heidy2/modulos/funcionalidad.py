@@ -1,10 +1,10 @@
 import json
 def añadido():
-    sucursal_nombre = input("ingrese el nombre de la sucursal")
-    direcion = input ("ingrese la direccion de la sucursal")
-    telefono = input ("ingrese el telefono de la sucursal")
-    gerente = input ("ingrese el nombre del gerente")
-    id = input ("ingrese el id del gerente")
+    sucursal_nombre = input("ingrese el nombre de la sucursal = ")
+    direcion = input ("ingrese la direccion de la sucursal = ")
+    telefono = input ("ingrese el telefono de la sucursal = ")
+    gerente = input ("ingrese el nombre del gerente = ")
+    id = input ("ingrese el id del gerente = ")
 
     sucursal = {
         "sucursal nombre " : sucursal_nombre,
