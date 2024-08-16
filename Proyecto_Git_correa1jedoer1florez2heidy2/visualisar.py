@@ -6,10 +6,10 @@ def menuprincipal(op : int):
     *       VISUALISACIONES SUCURSALES       *
     *******************************************
     """
-    menuStudentOp = '1.ingresar sucursal \n2.editar datos de la sucursal\n3.visualisar sucursales \n4. Salir'
+    menuprincipal = '1.ingresar sucursales \n2.filtrado por nombre\n3.filtrado por estado \n4. Salir'
     if (op != 4):
         print(title)
-        print(menuStudentOp)
+        print(menuprincipal)
         try:
             op = int(input(":) "))
         except ValueError:
@@ -25,4 +25,4 @@ def menuprincipal(op : int):
                     (0)
                 case _:
                     print()
-                    menuprincipal
+menuprincipal(1)
