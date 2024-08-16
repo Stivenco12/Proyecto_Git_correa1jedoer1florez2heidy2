@@ -1,6 +1,6 @@
-import os
-import Proyecto_Git_correa1jedoer1florez2heidy2.modulos.funcionalidad
-def menuprincipal(op : int):
+import modulos.editar as me
+import modulos.funcionalidad as mf
+def menuprincipal2(op : int):
     title = """
     *******************************************
     *          ELIMINACION DE DATOS         *
@@ -18,11 +18,10 @@ def menuprincipal(op : int):
         else:
             match (op):
                 case 1:
-                   function.añadido(0)
+                   mf.eliminar()
                 case 2:
-                    (0)
+                    me.editar()
                 case 3:
                     (0)
                 case _:
                     print()
-menuprincipal(1)

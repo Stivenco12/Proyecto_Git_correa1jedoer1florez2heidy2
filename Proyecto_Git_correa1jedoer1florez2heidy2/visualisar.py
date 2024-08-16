@@ -1,12 +1,11 @@
-import os
-import Proyecto_Git_correa1jedoer1florez2heidy2.modulos.funcionalidad
-def menuprincipal(op : int):
+
+def menuprincipal1(op : int):
     title = """
     *******************************************
     *       VISUALISACIONES SUCURSALES       *
     *******************************************
     """
-    menuprincipal = '1.ingresar sucursales \n2.filtrado por nombre\n3.filtrado por estado \n4. Salir'
+    menuprincipal = '1.ver sucursales \n2.filtrado por nombre\n3.filtrado por estado \n4. Salir'
     if (op != 4):
         print(title)
         print(menuprincipal)
@@ -25,4 +24,3 @@ def menuprincipal(op : int):
                     (0)
                 case _:
                     print()
-menuprincipal(1)
