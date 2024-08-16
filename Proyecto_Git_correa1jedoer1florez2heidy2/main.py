@@ -23,7 +23,7 @@ def menuprincipal(op : int):
                 case 2:
                     (0)
                 case 3:
-                    uic.menucitas(0)
+                    (0)
                 case _:
                     print()
 
