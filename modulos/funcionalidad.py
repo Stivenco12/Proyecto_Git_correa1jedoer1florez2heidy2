@@ -15,4 +15,20 @@ def añadido():
     }
     with open('guardar_informacion.json', 'w') as jf: 
         json.dump(sucursal, jf, ensure_ascii=False, indent=2)
-añadido()
+
+def eliminar():
+        nombre = ("la informacion a sido borrada")
+        direcion = ( "la informacion a sido borrada")
+        numero = ( "la informacion a sido borrada")
+        gerente = ( "la informacion a sido borrada")
+        id = ( "la informacion a sido borrada")
+
+        sucursal = {
+        "sucursal nombre " : nombre ,
+        "direcion " : direcion ,
+        "numero de telefono " : numero ,
+        "nombre del gerente " : gerente ,
+        "id" : id,
+    }
+        with open('guardar_informacion.json', 'w') as jf: 
+            json.dump(sucursal, jf, ensure_ascii=False, indent=2)
